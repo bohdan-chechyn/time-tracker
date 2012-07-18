@@ -4,21 +4,7 @@ $(document).on('ready', function() {
 //	project.set({title:'test ololo' + Math.random()});
 //	project.save();
 
-	var appRouter = Backbone.Router.extend({
-		routes: {
-			'/': 'index',
-			'/project/:id': 'loadProject'
-		},
-		loadProject: function() {
-			console.log(arguments);
-		}
-	});
-
-
-
 	var projects = new TimeTracker.Project.Collection();
-	
-
 
 	projects.fetch({success: function(projects) {
 		var oneProjectView = new TimeTracker.Project.View(project),
