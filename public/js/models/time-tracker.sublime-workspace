@@ -1,0 +1,907 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"projects",
+				"projectsView"
+			],
+			[
+				"project",
+				"projectsData"
+			],
+			[
+				"pro",
+				"project"
+			],
+			[
+				"Pro",
+				"ProjectSchema"
+			],
+			[
+				"templa",
+				"template"
+			],
+			[
+				"feeds",
+				"feeds-list"
+			],
+			[
+				"Fee",
+				"FeedsView"
+			],
+			[
+				"app",
+				"application_id"
+			],
+			[
+				"succes",
+				"success_callback"
+			],
+			[
+				"devices",
+				"devicesCount"
+			],
+			[
+				"devi",
+				"devicesCount"
+			],
+			[
+				"apps",
+				"appsIds"
+			],
+			[
+				"wi",
+				"withLikes"
+			],
+			[
+				"device",
+				"deviceTemplate"
+			],
+			[
+				"err",
+				"error_callback"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"ST",
+				"STATE_OPEN"
+			],
+			[
+				"file",
+				"fileName"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"script",
+				"scriptFile"
+			],
+			[
+				"pa",
+				"package"
+			],
+			[
+				"JS_",
+				"JS_TARGET"
+			],
+			[
+				"sc",
+				"scripts"
+			],
+			[
+				"js",
+				"jsFilesQueue"
+			],
+			[
+				"path",
+				"pathinfo"
+			],
+			[
+				"date",
+				"dateStart"
+			],
+			[
+				"поз",
+				"позиция"
+			],
+			[
+				"paid",
+				"PaidClickCount"
+			],
+			[
+				"Pa",
+				"PaidPositionClickCount"
+			],
+			[
+				"Click",
+				"SpAdsClickCount"
+			],
+			[
+				"Positi",
+				"AvPosition"
+			],
+			[
+				"R",
+				"SearchResultsCount"
+			],
+			[
+				"Free",
+				"FreeClickCount"
+			],
+			[
+				"sDa",
+				"sDate"
+			],
+			[
+				"get",
+				"getFullYear"
+			],
+			[
+				"sDate",
+				"sDateText"
+			],
+			[
+				"Paid",
+				"PaidCTR"
+			],
+			[
+				"PaidC",
+				"PaidClickCount"
+			],
+			[
+				"to",
+				"totalStatistic"
+			],
+			[
+				"paidC",
+				"paidClicks"
+			],
+			[
+				"end",
+				"endDate"
+			],
+			[
+				"cha",
+				"chartDiv"
+			],
+			[
+				"tota",
+				"totalStatistic"
+			],
+			[
+				"total",
+				"totalRow"
+			],
+			[
+				"ps",
+				"paidClicks"
+			],
+			[
+				"start",
+				"startDate"
+			],
+			[
+				"sta",
+				"startDate"
+			],
+			[
+				"sD",
+				"sDateDatepicker"
+			],
+			[
+				"stat",
+				"stat"
+			],
+			[
+				"passw",
+				"passwordRecoveryList"
+			],
+			[
+				"ren",
+				"render"
+			],
+			[
+				"vi",
+				"viewData"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"activation",
+				"activationCode"
+			],
+			[
+				"sa",
+				"salt"
+			],
+			[
+				"send",
+				"sendMail"
+			],
+			[
+				"set",
+				"setPassword"
+			],
+			[
+				"select",
+				"selectDates"
+			],
+			[
+				"bol",
+				"bold"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"fol",
+				"followers_count"
+			],
+			[
+				"from",
+				"from_user"
+			],
+			[
+				"new",
+				"newWidth"
+			],
+			[
+				"st",
+				"startPoint"
+			],
+			[
+				"chart",
+				"chartWidth"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/var/www/time-tracker/package.json",
+			"settings":
+			{
+				"buffer_size": 160,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/time-tracker/app.js",
+			"settings":
+			{
+				"buffer_size": 1542,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "project.js",
+			"settings":
+			{
+				"buffer_size": 1014,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/time-tracker/public/js/bundle.js",
+			"settings":
+			{
+				"buffer_size": 974,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/time-tracker/views/templates/one_project.jade",
+			"settings":
+			{
+				"buffer_size": 479,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/time-tracker/public/js/views/one_project.js",
+			"settings":
+			{
+				"buffer_size": 925,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/time-tracker/public/js/views/projects_panel.js",
+			"settings":
+			{
+				"buffer_size": 1581,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/time-tracker/views/templates/projects_list.jade",
+			"settings":
+			{
+				"buffer_size": 605,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 54.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/time-tracker/views/templates/projects_list.jade",
+		"/var/www/time-tracker/public/js/views/projects_panel.js",
+		"/var/www/time-tracker/views/layout.jade",
+		"/var/www/time-tracker/public/js/models/timerow.js",
+		"/var/www/time-tracker/models/timerow.js",
+		"/var/www/time-tracker/models/project.js",
+		"/var/www/time-tracker/public/js/vendors/jquery.min.js",
+		"/var/www/time-tracker/public/js/backbone-min.js",
+		"/var/www/time-tracker/public/js/underscore.min.js",
+		"/var/www/time-tracker/public/js/views/application.js",
+		"/var/www/time-tracker/views/test.ejs",
+		"/var/www/time-tracker/public/js/backbone.min.js",
+		"/home/grul/.config/sublime-text-2/Packages/User/JsFormat.sublime-settings",
+		"/var/www/time-tracker/public/css/bootstrap.min.css",
+		"/var/www/time-tracker/models/Project.js",
+		"/var/www/airomo-vde/www-airomo/src/js/library/views/mobile/devices.js",
+		"/var/www/airomo-vde/airomo-js-common/src/js/bundles/api.airomo.js",
+		"/var/www/airomo-vde/www-airomo/contrib/config/local.clientconfig.js",
+		"/var/www/airomo-vde/airomo-js-common/contrib/config/local.clientconfig.js",
+		"/var/www/airomo-vde/www-airomo/src/js/library/templates.js",
+		"/var/www/airomo-vde/www-airomo/contrib/config/buildconfig.js",
+		"/var/www/airomo-vde2/www-airomo/src/html/templates/profile/index.html",
+		"/var/www/airomo-vde2/www-airomo/src/html/layouts/profile.html",
+		"/var/www/airomo-vde2/www-airomo/src/js/bundles/profile.js",
+		"/var/www/airomo-vde2/www-airomo/src/js/library/models/profile/feed.js",
+		"/var/www/airomo-vde2/airomo-js-common/src/js/bundles/api.airomo.js",
+		"/var/www/airomo-vde2/www-airomo/src/js/library/models/mobile/device.js",
+		"/var/www/airomo-vde2/auth/package.json",
+		"/var/www/airomo-vde/www-airomo/contrib/reloader.js",
+		"/var/www/airomo-vde2/www-airomo/src/html/site_root/profile/index2.html",
+		"/var/www/airomo-vde2/www-airomo/src/js/bundles/mobile/devices.js",
+		"/var/www/airomo-vde2/www-airomo/src/js/library/views/mobile/devices.js",
+		"/var/www/airomo-vde2/www-airomo/src/js/library/collections/mobile/devices.js",
+		"/var/www/airomo-vde2/www-airomo/src/css/core/devices.css",
+		"/var/www/airomo-vde2/www-airomo/src/html/templates/mobile/devices.html",
+		"/var/www/airomo-vde2/www-airomo/src/html/site_root/profile/apps.html",
+		"/var/www/airomo-vde2/www-airomo/BUILD/profile/index.html",
+		"/var/www/airomo-vde2/www-airomo/src/html/layouts/base.html",
+		"/var/www/airomo-vde2/www-airomo/BUILD/css/core/style.css",
+		"/var/www/airomo-vde2/www-airomo/src/css/core/style.css",
+		"/var/www/airomo-vde2/www-airomo/src/html/site_root/mobile/devices.html",
+		"/var/www/airomo-vde2/www-airomo/src/js/bundles/settings/accounts.js",
+		"/var/www/airomo-vde2/www-airomo/src/html/templates/devices/application.html",
+		"/var/www/airomo-vde2/www-airomo/src/html/templates/devices/device.html",
+		"/var/www/airomo-vde2/www-airomo/src/html/templates/settings/social_setting.html",
+		"/var/www/airomo-vde2/airomo-js-common/BUILD/js/api.airomo.js",
+		"/var/www/airomo-vde2/www-airomo/src/css/settings/style.css",
+		"/var/www/airomo-vde2/www-airomo/src/css/core/settings.css",
+		"/var/www/airomo-vde2/www-airomo/BUILD/mobile/devices.html",
+		"/var/www/airomo-vde2/www-airomo/src/js/library/modules/settings/devices/core.js",
+		"/var/www/airomo-vde2/www-airomo/BUILD/js/mobile/devices.js",
+		"/var/www/airomo-vde2/www-airomo/server.js",
+		"/var/www/airomo-vde2/www-airomo/src/html/site_root/home.html",
+		"/var/www/airomo-vde2/www-airomo/src/js/library/models/settings/devices/device_model.js",
+		"/var/www/airomo-vde2/www-airomo/src/js/library/models/mobile/devices.js",
+		"/var/www/airomo-vde2/www-airomo/BUILD/mobile/myDevicesAndApps.html",
+		"/var/www/airomo-vde2/www-airomo/BUILD/mobile/mydevicesandapps.html",
+		"/var/www/airomo-vde2/www-airomo/www.log",
+		"/var/www/airomo-vde2/www-airomo/contrib/package.json",
+		"/var/www/airomo-vde2/airomo-js-common/contrib/config/local.clientconfig.js",
+		"/var/www/airomo-vde2/airomo-js-common/contrib/config/clientconfig.js",
+		"/var/www/airomo-vde2/auth/config.js",
+		"/var/www/airomo-vde2/lb/config.js",
+		"/var/www/airomo-vde2/www-airomo/contrib/config/local.clientconfig.js",
+		"/var/www/airomo-vde2/www-airomo/contrib/config/clientconfig.js",
+		"/var/www/airomo-vde2/www-airomo/BUILD/index.html",
+		"/var/www/widget2/public/index.php",
+		"/var/www/widget2/protected/controllers/ConstructorController.php",
+		"/var/www/widget2/js/DG/Widget/Components/ConstructorIndex.js",
+		"/var/www/widget2/js/DG/Widget/Plugins/TopicsList/TopicsList.js",
+		"/var/www/widget2/protected/views/constructor/index.php",
+		"/var/www/widget2/js/DG/Widget/Plugins/FirmCard/popup.html",
+		"/var/www/widget2/protected/config/main.php",
+		"/var/www/widget2/build.prop.server",
+		"/var/www/widget2/build.xml",
+		"/var/www/widget2/protected/views/constructor/confirm.php",
+		"/var/www/widget2/protected/views/constructor/getCode.php",
+		"/var/www/widget2/public/css/dg-widget-icons.css",
+		"/var/www/widget2/public/css/dg-widget.css",
+		"/var/www/widget2/public/css/dg-widget_1.css",
+		"/var/www/widget2/public/markup/css/dg-widget-icons.css",
+		"/var/www/widget2/public/markup/css/dg-widget.css",
+		"/var/www/widget2/public/markup/css/dg-widget_1.css",
+		"/var/www/widget2/framework/web/widgets/CTabView.php",
+		"/var/www/widget2/js/DG/Widget/App/Minigis/Loader.js",
+		"/var/www/widget2/js/DG/Widget/Plugins/Search/Search.css",
+		"/var/www/widget2/js/DG/Widget/Plugins/TopicsList/TopicsList.css",
+		"/var/www/widget2/public/js/server.js",
+		"/var/www/widget2/public/css/server.css",
+		"/var/www/widget2/build.prop",
+		"/var/www/widget2/protected/views/layouts/constructor.php",
+		"/var/www/widget2/js/DG/Widget/Plugins/ProjectSelector/ProjectSelector.css",
+		"/var/www/widget2/js/DG/Widget/Plugins/FirmCard/FirmCard.css",
+		"/var/www/widget2/protected/config/main.php.template",
+		"/var/www/widget2/public/css/dg-widget-cards.css",
+		"/var/www/widget2/public/js/client.js",
+		"/var/www/widget2/public/js/server.css",
+		"/var/www/widget2/public/test/test.html",
+		"/var/www/widget2/protected/commands/CombineStaticCommand.php",
+		"/var/www/widget2/js/DG/Widget/Plugins/FirmCard/FirmCard.js",
+		"/var/www/widget2/js/DG/Widget/Plugins/FirmCard/FirmShedule.js",
+		"/var/www/widget2/public/js/client.css",
+		"/var/www/widget2/protected/views/plugins/server.html",
+		"/var/www/widget2/protected/views/plugins/client.html",
+		"/var/www/widget2/protected/script.js",
+		"/var/www/widget2/protected/style.css",
+		"/var/www/widget2/protected/config/console.php.template",
+		"/var/www/widget2/protected/yiic.php",
+		"/var/www/widget2/protected/config/console.php",
+		"/var/www/widget2/protected/commands/CreateFakeOlapDataCommand.php",
+		"/var/www/widget2/js/DG/Widget/Pluggins/FirmCard/popup.html",
+		"/var/www/widget2/js/DG/Widget/System/Timezone.js",
+		"/var/www/widget2/js/DG/Widget/Pluggins/FirmCard/FirmCard.js",
+		"/var/www/widget2/js/DG/Widget/Pluggins/FirmCard/package.json",
+		"/var/www/widget2/js/DG/Widget/Pluggins/FirmCard/FirmCard.html",
+		"/var/www/mapsapi/current/public/index.php",
+		"/var/www/widget2/js/DG/Widget/System/Template.js",
+		"/var/www/widgetDeploy/build.prop",
+		"/var/www/widgetDeploy/build.xml",
+		"/var/www/widgetDeploy/protected/config/main.php.template",
+		"/var/www/widgetDeploy/build.prop.server",
+		"/var/www/mapsapi/current/build.xml",
+		"/var/www/widgetDeploy/ext_configs/nginx/minigis.api.2gis.dev.conf",
+		"/var/www/mapsapi/current/build.prop",
+		"/var/www/widget2/js/DG/Widget/Pluggins/Search/Search.js",
+		"/var/www/widget2/js/DG/Widget/Pluggins/FirmCard/untitled",
+		"/var/www/widget2/js/DG/Widget/Pluggins/ProjectSelector/ProjectSelector.js",
+		"/var/www/widget2/js/DG/Widget/System/DGApiClient.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			"<open folders>,/var/www/airomo-vde2/www-airomo/src",
+			"<open folders>,/var/www/airomo-vde2/www-airomo/src/css",
+			"<open folders>",
+			"/var/www/widget2/",
+			"/var/www/widget2/*.css",
+			"/var/www/widget2/",
+			"/var/www/bizaccount"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"game",
+			"\"",
+			"	",
+			"avatar_large",
+			";",
+			"device",
+			"@todo",
+			"mobile-devices",
+			"img/",
+			"\"",
+			">",
+			"<",
+			"replace",
+			"../img",
+			"api.airomo.dev",
+			"<p><a href=\"#\">Jane Birkin</a> wants to be your friend.</p>",
+			"api.airomo.dev\nsearchFirmShowResults =",
+			"searchFirmShowResults\nsearchFirmShowResults =",
+			"searchFirmResultParse",
+			"FirmCard",
+			"msg",
+			"FirmCardExpand\nFirmCardExpand",
+			"onSchedu\n\nonScheduleExpandHandler",
+			"onScheduleExpandHandler\nonScheduleExpandHandler=",
+			"onScheduleExpandHandler\nonScheduleExpandHandler",
+			" searchfirmrun(",
+			"searchfirmrun",
+			"DG.Widget.Plugins.FirmCard.initTemplate",
+			"yiic",
+			"self::",
+			"            }",
+			"{$URL}",
+			"minigis.api.2gis.dev",
+			".dg-wgt-qlinks-sortable .dg-wgt-qlinks-item",
+			"minigis.api.2gis.dev",
+			"minigis.api.2gis.dev\n",
+			"widget2.loc",
+			"minigis.api.2gis.dev\n",
+			"minigis.api.2gis.dev",
+			".dg-wgt-qlinks-sortable .dg-wgt-qlinks-item",
+			"minigis.api.2gis.dev",
+			"minigis.api.2gis.dev/shared/img\nminigis.api.2gis.dev",
+			"{$URL}",
+			"http://minigis.api.2gis.dev/",
+			"mpl",
+			"script",
+			"jsFilesQueue",
+			"CSS_PATH",
+			"JS_PATH",
+			"scriptFile",
+			"popup",
+			"runtime",
+			"dgApiClient",
+			"search(",
+			"@todo",
+			"this.self",
+			"minigis.api.2gis.dev",
+			"excelStatisticExport",
+			"%\n%",
+			"objDrawing",
+			"flash",
+			"max/css",
+			".statistic ",
+			"test",
+			";"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"project",
+			"'",
+			"    ",
+			"feed",
+			"images/",
+			"'",
+			"../images",
+			"message",
+			"$appPath . self::",
+			"${URL}",
+			"{$URL}",
+			"style",
+			"jsQueue",
+			"CSS_SOURCE",
+			"JS_SOURCE",
+			"htmlFile",
+			"image",
+			"css/max",
+			""
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/var/www/time-tracker/package.json",
+					"settings":
+					{
+						"buffer_size": 160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/time-tracker/app.js",
+					"settings":
+					{
+						"buffer_size": 1542,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								268,
+								268
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "project.js",
+					"settings":
+					{
+						"buffer_size": 1014,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								961,
+								961
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/var/www/time-tracker/public/js/bundle.js",
+					"settings":
+					{
+						"buffer_size": 974,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								600,
+								600
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/var/www/time-tracker/views/templates/one_project.jade",
+					"settings":
+					{
+						"buffer_size": 479,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								468,
+								468
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/var/www/time-tracker/public/js/views/one_project.js",
+					"settings":
+					{
+						"buffer_size": 925,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								901,
+								901
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/D/D.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/var/www/time-tracker/public/js/views/projects_panel.js",
+					"settings":
+					{
+						"buffer_size": 1581,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1364,
+								1364
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/D/D.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/var/www/time-tracker/views/templates/projects_list.jade",
+					"settings":
+					{
+						"buffer_size": 605,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								440,
+								440
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 235.0,
+	"status_bar_visible": false
+}

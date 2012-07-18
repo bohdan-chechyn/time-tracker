@@ -1,0 +1,18 @@
+script(type='text/template', data-name='projects-list-template')
+	button(class='btn btn-large btn-primary')
+		span(class='icon-plus icon-white')
+		|Add project
+	h2
+		|Projects:
+	ul(class='nav nav-pills', data-role='status-toggler')
+		li
+			a(href='#', data-status='1')
+				|Open
+		li
+			a(href='#', data-status='2')
+				|Archived
+	div(data-name='projects', style="display:none")
+		|<% for (var i = 0; i < projects.length; i++) { %>
+		| 	<% var project = projects.models[i];%>
+		|	<a href='/project/<%-project.get('_id')%>' data-id='<%-project.get('_id')%>'><%-project.get('title')%></a><br />
+		|<% } %>		

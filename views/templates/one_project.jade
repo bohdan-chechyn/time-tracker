@@ -1,0 +1,17 @@
+script(type='text/template', data-name='one-project-template')
+	button(class='btn btn-large btn-primary')
+		span(class='icon-time icon-white')
+		|Log time 
+	|&nbsp;
+	button(class='btn btn-large btn-primary', data-role='archive')
+		span(class='icon-remove icon-white')
+		|Archive project
+	div(data-name='project-data', style="display:none")
+		h3
+			|<%-title%>
+		span
+			|Total time
+		div(data-name='timeline').
+			<% for (var i = 0; i < timeline.length; i++) { %>
+				
+			<% } %>
