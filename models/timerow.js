@@ -8,5 +8,6 @@ var mongoose = require('mongoose'),
     }),
     TimeRowModel = mongoose.model('TimeRow', TimeRowSchema);
 
+
 exports.schema = TimeRowSchema;
 exports.model = TimeRowModel;

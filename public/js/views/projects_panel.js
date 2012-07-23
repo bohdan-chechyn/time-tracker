@@ -9,8 +9,10 @@ TimeTracker.ProjectsPanel.View = Backbone.View.extend({
 	el: '[data-name="projects-panel"]',
 	events: {
 		'click [data-name="projects"] a': 'handleProjectClick',
-		'click [data-role="status-toggler"] a': 'toggleStatus'
+		'click [data-role="status-toggler"] a': 'toggleStatus',
+		'click [data-role="save-project"]': 'saveProject'
 	},
+
 	initialize: function(collection) {
 		this.template = _.template($('[data-name=projects-list-template]').html());
 		this.collection = collection;
@@ -36,13 +38,13 @@ TimeTracker.ProjectsPanel.View = Backbone.View.extend({
 	},
 
 	handleProjectClick: function(e) {
-		var id = $(e.srcElement).attr('data-id');
+		var id = $(e.currentTarget).attr('data-id');
 		this.trigger('projectSelected', id);
 		return false;
 	},
 
 	toggleStatus: function(e) {
-		var status = parseInt($(e.srcElement).attr('data-status'), 10);
+		var status = parseInt($(e.currentTarget).attr('data-status'), 10);
 		this.status = status;
 		this.redraw();
 		return false;
@@ -53,5 +55,23 @@ TimeTracker.ProjectsPanel.View = Backbone.View.extend({
 			case TimeTracker.Project.STATUS_OPEN: this.showOpen(); break;
 			case TimeTracker.Project.STATUS_ARCHIVED: this.showArchived(); break;
 		}
+	},
+
+	saveProject: function() {
+		var title = $('#project-title-input').val().trim(),
+		    description = $('#project-description-input').val().trim(),
+		    self = this,
+		    project;
+		if (title === '') {
+			$('#project-title-input').parents('.control-group').addClass('error');
+			return;
+		}
+		$('#add_project_popup').modal('hide');
+		project = new TimeTracker.Project.Model({title: title, description: description, timeline: [], status: TimeTracker.Project.STATUS_OPEN});
+		project.save(null, {success: function(project) {
+			project = new TimeTracker.Project.Model(project);
+			self.trigger('projectAdded', project);
+		}});
+		return false;
 	}
 });

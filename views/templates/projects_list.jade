@@ -1,18 +1,41 @@
-script(type='text/template', data-name='projects-list-template')
-	button(class='btn btn-large btn-primary')
-		span(class='icon-plus icon-white')
-		|Add project
-	h2
-		|Projects:
-	ul(class='nav nav-pills', data-role='status-toggler')
-		li
-			a(href='#', data-status='1')
-				|Open
-		li
-			a(href='#', data-status='2')
-				|Archived
-	div(data-name='projects', style="display:none")
-		|<% for (var i = 0; i < projects.length; i++) { %>
-		| 	<% var project = projects.models[i];%>
-		|	<a href='/project/<%-project.get('_id')%>' data-id='<%-project.get('_id')%>'><%-project.get('title')%></a><br />
-		|<% } %>		
+script(type='text/template', data-name='projects-list-template').
+	<button class='btn btn-primary' href="#add_project_popup" data-toggle="modal">
+		<span class='icon-plus icon-white'></span>
+		Add project
+	</button>
+	<h2>Projects:</h2>
+	<ul class='nav nav-pills' data-role='status-toggler'>
+		<li><a href='#' data-status='1'>Open</a></li>
+		<li><a href='#' data-status='2'>Archived</a></li>
+	</ul>
+	<div data-name='projects' style="display:none">
+		<% for (var i = 0; i < projects.length; i++) { %>
+			<% var project = projects.models[i];%>
+			<a href='/project/<%-project.get('_id')%>' data-id='<%-project.get('_id')%>'><%-project.get('title')%></a><br />
+		<% } %>
+	</div>
+	<div class="modal fade" id="add_project_popup">
+		<div class="modal-header">
+			<a class="close" data-dismiss="modal">&times;</a>
+			<h3>Add new project</h3>
+		</div>
+		<div class="modal-body">
+			<div class="control-group">
+				<label class="control-label" for="project-title-input">Title</label>
+				<div class="controls">
+					<input type="text" class="input-xlarge" id="project-title-input">
+					<span class="help-inline">required</span>
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="project-description-input">Description</label>
+				<div class="controls">
+					<textarea class="input-xlarge" id="project-description-input" rows="3"></textarea>
+				</div>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<a href="#" class="btn" data-dismiss="modal">Close</a>
+			<a href="#" class="btn btn-primary" data-role="save-project">Save project</a>
+		</div>
+	</div>

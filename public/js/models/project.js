@@ -14,20 +14,19 @@ TimeTracker.Project.Collection = Backbone.Collection.extend({
 	getOpen: function() {
 		var list = this.filter(function(project) {
 		      return project.get('status') === TimeTracker.Project.STATUS_OPEN;
-		    })
+		    });
 		return new TimeTracker.Project.Collection(list);
 	},
 	getArchived: function() {
 		var list = this.filter(function(project) {
 		      return project.get('status') === TimeTracker.Project.STATUS_ARCHIVED;
-		    })
+		    });
 		return new TimeTracker.Project.Collection(list);
 	},
 	archiveProject: function(id) {
 		for (var i = 0; i < this.length; i++) {
 			if (this.models[i].get('_id') === id) {
 				this.models[i].set('status', TimeTracker.Project.STATUS_ARCHIVED);
-				console.log(id + ' archived');
 			}
 		}
 	}

@@ -2,6 +2,8 @@ doctype 5
 html
 	head
 		link(type='text/css', rel='stylesheet', href='/css/bootstrap.min.css')
+		link(type='text/css', rel='stylesheet', href='/css/timepicker.css')
+		link(type='text/css', rel='stylesheet', href='/css/ui-lightness/jquery-ui-1.8.21.custom.css')
 	body
 		div(class='navbar')
 			div(class='navbar-inner')
@@ -13,11 +15,16 @@ html
 				div(class='span3 well', data-name='projects-panel')
 				div(class='span9 well', data-name='one-project')
 
+
 		script(src='/js/vendors/jquery.min.js')
+		script(src='/js/vendors/jquery.ui.min.js')
 		script(src='/js/vendors/bootstrap.min.js')
 		script(src='/js/vendors/underscore.min.js')
 		script(src='/js/vendors/backbone.min.js')
+		script(src='/js/vendors/jquery.timepicker.min.js')
+		script(src='/js/vendors/moment.min.js')
 		script(src='/js/models/project.js')
+		script(src='/js/models/timerow.js')
 		script(src='/js/views/one_project.js')
 		script(src='/js/views/projects_panel.js')
 		script(src='/js/bundle.js')

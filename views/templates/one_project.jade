@@ -1,17 +1,104 @@
-script(type='text/template', data-name='one-project-template')
-	button(class='btn btn-large btn-primary')
-		span(class='icon-time icon-white')
-		|Log time 
-	|&nbsp;
-	button(class='btn btn-large btn-primary', data-role='archive')
-		span(class='icon-remove icon-white')
-		|Archive project
-	div(data-name='project-data', style="display:none")
-		h3
-			|<%-title%>
-		span
-			|Total time
-		div(data-name='timeline').
-			<% for (var i = 0; i < timeline.length; i++) { %>
-				
+script(type='text/template', data-name='one-project-template').
+	
+	<% if (status === 1) { %>
+	<div class="row">
+		<div class="span8"></div>
+		<div class="span4">
+		<button class='btn btn-primary' href="#log_time_popup" data-toggle="modal">
+			<span class='icon-time icon-white'></span>Log time
+		</button>
+		&nbsp;
+		<button class='btn btn-primary' data-role='archive'>
+			<span class='icon-remove icon-white'></span>Archive project
+		</button>
+		</div>
+	</div>
+	<% } %>
+	<%
+		timeline = timeline.getByDateRange(this.from, this.to);
+		var totalTime = _.reduceRight(timeline, function(memo, timerow) {
+			var delta = timerow.get('to').getTime() - timerow.get('from').getTime();
+			memo += delta;
+			return memo;
+		}, 0);
+
+		totalTime = totalTime/(1000*60*60);
+	%>
+	<div data-name='project-data' style="display:none">
+		<h1><%-title%></h1>
+		<% if (description !== '') { %>
+		<p><%-description%></p>
+		<% } %>
+
+		<div data-name='timeline'>
+			<div class="row-fluid">
+				<div class="span8">
+					<h4>Total time: <%-totalTime%> hours</h4>
+				</div>
+				<div class="span4">
+					from <input type="text" value="<%-moment(this.from).format('DD.MM.YYYY')%>" style="width:70px" data-name="filter-from" />
+					to <input type="text" value="<%-moment(this.to).format('DD.MM.YYYY')%>" style="width:70px" data-name="filter-to" />
+					<button class='btn btn-primary' data-role='filter-date'>Filter</button>
+				</div>
+			</div>
+			<table class="table table-bordered">
+				<colgroup>
+					<col width="15%" />
+					<col width="15%" />
+					<col width="70%" />
+				</colgroup>
+				<thead>
+					<tr>
+						<th>Date</th>
+						<th>Time range</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+			<% for (var i = timeline.length - 1; i >= 0; i--) { %>
+				<tr>
+					<td><%- moment(timeline.models[i].get('from')).format('DD MMMM YYYY') %></td>
+					<td>
+					<%- moment(timeline.models[i].get('from')).format('HH:mm') %> -
+					<%- moment(timeline.models[i].get('to')).format('HH:mm') %>
+					</td>
+					<td><%-timeline.models[i].get('description')%></td>
+				</tr>
 			<% } %>
+			</table>
+		</div>
+	</div>
+	<div class="modal fade" id="log_time_popup">
+		<div class="modal-header">
+			<a class="close" data-dismiss="modal">&times;</a>
+			<h3>Log time</h3>
+		</div>
+		<div class="modal-body">
+			<div class="control-group">
+				<span class="help-inline" data-role="error-console"></span>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="project-title-input">From</label>
+				<div class="controls">
+					<input type="time" class="input-xlarge" id="timerow-from-input">
+					<span class="help-inline">required</span>
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="project-title-input">To</label>
+				<div class="controls">
+					<input type="time" class="input-xlarge" id="timerow-to-input">
+					<span class="help-inline">required</span>
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="timerow-description-input">Description</label>
+				<div class="controls">
+					<textarea class="input-xlarge" id="timerow-description-input" rows="3"></textarea>
+				</div>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<a href="#" class="btn" data-dismiss="modal">Close</a>
+			<a href="#" class="btn btn-primary" data-role="save-timerow">Log time</a>
+		</div>
+	</div>
