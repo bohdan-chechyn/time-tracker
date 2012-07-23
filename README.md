@@ -1,5 +1,10 @@
-time-tacker
+Time-tacker
 ===========
+The actual task is to implement a simple solution to the following two user stories:<br />
+<br />
+1) As a freelancer I want to be able to register the time I spend on my projects, so that I can create correct invoices for my customers.<br />
+2) As a freelancer I want to be able to get an overview of my time registrations, so that I can create correct invoices for my customers.<br />
+
 
 Requirements
 ============
