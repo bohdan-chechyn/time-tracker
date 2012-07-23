@@ -1,9 +1,11 @@
+var config = require('./config').config;
+
+console.log(config);
+
 var express = require('express')
   , mongoose = require('mongoose')
   , moment = require('moment')
-  , db = mongoose.connect(' mongodb://time-tracker:qwer@ds033267.mongolab.com:33267/time-tracker');
- // , db = mongoose.connect(' mongodb://localhost/time-tracker');
-
+  , db = mongoose.connect(config.mongo.connectionString);
 
 var ProjectModel = require('./models/project.js').model,
 	TimeRowModel = require('./models/timerow.js').model;
@@ -87,5 +89,5 @@ app.post('/timerow', function saveTimerow(req, res) {
     });
 });
 
-app.listen(8011);
-console.log("Express server listening on port 8011 in %s mode", app.settings.env);
+app.listen(config.app.port);
+console.log("App has been started");
