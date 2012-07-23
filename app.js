@@ -1,8 +1,8 @@
 var express = require('express')
   , mongoose = require('mongoose')
   , moment = require('moment')
- // , db = mongoose.connect(' mongodb://time-tracker:qwer@ds033267.mongolab.com:33267/time-tracker');
-  , db = mongoose.connect(' mongodb://localhost/time-tracker');
+  , db = mongoose.connect(' mongodb://time-tracker:qwer@ds033267.mongolab.com:33267/time-tracker');
+ // , db = mongoose.connect(' mongodb://localhost/time-tracker');
 
 
 var ProjectModel = require('./models/project.js').model,
